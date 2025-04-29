@@ -7,3 +7,8 @@ run = [
   "uv venv",
   "uv sync"
 ]
+
+[tasks.fit]
+run = [
+  "uv run main.py"
+]
