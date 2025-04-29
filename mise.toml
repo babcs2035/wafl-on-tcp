@@ -1,0 +1,9 @@
+[tools]
+python = "3.11"
+
+[tasks.init]
+run = [
+  "mise install",
+  "uv venv",
+  "uv sync"
+]
